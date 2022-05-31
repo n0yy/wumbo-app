@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import {useEffect} from "react"
+import Heroes from "./components/Heroes";
+import About from "./components/About";
 
 function App() {
+  useEffect(() => {
+    document.title = "Wumbo";
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="bg-sky-100 px-24 min-h-screen">
+      <Navbar />
+      <Heroes />
+      <About />
+    </main>
   );
 }
 
