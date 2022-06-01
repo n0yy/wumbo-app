@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dm: ['DM Sans']
+      }
+    },
   },
   plugins: [],
 }
