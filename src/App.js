@@ -1,8 +1,10 @@
 import Navbar from "./components/Navbar";
 import {useEffect} from "react"
-import Heroes from "./components/Heroes";
-import About from "./components/About";
-import SecondAbout from "./components/SecondAbout";
+import Heroes from "./views/Heroes";
+import ForEveryone from "./views/ForEveryone";
+import Features from "./views/Features";
+import SecondFeatures from "./views/SecondFeatures";
+import Preview from "./views/Preview";
 
 function App() {
   useEffect(() => {
@@ -11,11 +13,13 @@ function App() {
   return (
     <>
     <Navbar />
-    <main className="bg-gradient-to-b from-sky-100 to-sky-50/30 pb-32 px-24 min-h-screen pt-28">
+    <main className="bg-gradient-to-b from-sky-100 to-sky-50/30 pb-32 px-5 md:px-24 min-h-screen pt-28">
       <Heroes />
-      <About />
-      <SecondAbout />
+      <ForEveryone />
+      <Features />
+      <SecondFeatures />
     </main>
+    <Preview />
     </>
   );
 }

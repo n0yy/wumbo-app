@@ -111,7 +111,7 @@ export default function CardAbout() {
   return aboutData.map((item, index) => {
     return (
       <div
-        className="bg-sky-800 hover:bg-sky-900 shadow-xl hover:scale-105 transition duration-200 text-white p-7 w-72 h-64 rounded-lg flex flex-col item-center justify-center"
+        className="bg-sky-800 hover:bg-sky-900 shadow-xl hover:scale-105 transition duration-200 text-white p-7 w-full md:w-72 h-full md:h-64 rounded-lg flex flex-col item-center justify-center"
         key={index}
       >
         <span className="inline-block w-12 p-2 bg-sky-600 rounded-md shadow mb-2">

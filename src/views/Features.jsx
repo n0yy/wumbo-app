@@ -1,7 +1,10 @@
-export default function SecondAbout() {
+export default function Features() {
   return (
-    <section className="mt-48 font-dm flex items-center space-x-5">
-      <div className="w-3/5 space-y-4 mr-20">
+    <section
+      className="mt-24 md:mt-48 font-dm block md:flex items-center space-x-5"
+      id="features"
+    >
+      <div className="w-full md:w-3/5 space-y-4 mr-20">
         <h3 className="text-3xl font-medium text-gray-800">
           There are{" "}
           <span className="underline text-sky-900 leading-5">
@@ -33,16 +36,24 @@ export default function SecondAbout() {
         </ul>
       </div>
 
-      <div className="w-full relative">
-        <div className="absolute top-0 -right-24 -z-20">
+      <div className="w-full relative mt-10 md:mt-0 overflow-hidden">
+        <div className="absolute top-0 -right-24 -z-50">
           <img src="/bg-about1.png" alt="bg1" />
         </div>
-        <div className="flex items-end gap-5">
+        <div className="flex flex-col md:flex-row items-center justify-center md:items-end gap-5">
           <div className="shadow-2xl">
-            <img src="/hero2.png" alt="hero 2" className="w-36 h-36" />
+            <img
+              src="/hero2.png"
+              alt="hero 2"
+              className="w-36 h-36 flex-none"
+            />
           </div>
-          <div className="shadow-xl">
-            <img src="/hero5.png" alt="hero 5" className="w-56 h-56" />
+          <div className="shadow-xl ">
+            <img
+              src="/hero5.png"
+              alt="hero 5"
+              className="w-56 h-56 shrink-md"
+            />
           </div>
           <div className="shadow-xl">
             <img src="/hero4.png" alt="hero 4" className="" />
