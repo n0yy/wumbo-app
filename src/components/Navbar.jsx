@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className="py-8 flex items-center justify-between">
+    <div className="py-4 flex items-center justify-between fixed inset-x-0 top-0 bg-white/30 backdrop-blur-md shadow-sm px-24 z-20 w-full">
       <span className="flex items-center space-x-3">
         <img src="/logo.png" alt="Wumbo Logo" />
         <p className="font-bold text-lg">Wumbo</p>

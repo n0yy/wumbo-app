@@ -17,6 +17,7 @@ export default function Heroes() {
             name="Download Now!"
             urlImage="/download.png"
             color="bg-sky-500 text-white"
+            href="https://www.figma.com/downloads/"
           />
           <Button
             name="See Action"

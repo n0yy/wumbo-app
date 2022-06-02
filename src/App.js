@@ -9,12 +9,14 @@ function App() {
     document.title = "Wumbo";
   }, [])
   return (
-    <main className="bg-gradient-to-b from-sky-100 to-sky-50/30 pb-32 px-24 min-h-screen">
-      <Navbar />
+    <>
+    <Navbar />
+    <main className="bg-gradient-to-b from-sky-100 to-sky-50/30 pb-32 px-24 min-h-screen pt-28">
       <Heroes />
       <About />
       <SecondAbout />
     </main>
+    </>
   );
 }
 
