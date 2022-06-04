@@ -8,7 +8,7 @@ export default function Heroes() {
           Beautiful Design For{" "}
           <span className="font-extrabold underline">Social Media</span> Content
         </h1>
-        <p className="text-gray-500 font-thin">
+        <p className="text-gray-500 font-thin text-justify">
           Figma social media content templates for branding, marketing,
           insights, and more. Free for personal and commercial use!
         </p>
@@ -39,7 +39,11 @@ export default function Heroes() {
         </span>
 
         <div className="flex items-end gap-3">
-          <img src="/hero2.png" alt="hero 1" className="w-36 h-36" />
+          <img
+            src="/hero2.png"
+            alt="hero 1"
+            className="w-20 h-20 sm:w-36 sm:h-36"
+          />
           <img src="/hero5.png" alt="hero 2" />
           <img src="/hero3.png" alt="hero 3" className="hidden md:block" />
         </div>
@@ -47,12 +51,12 @@ export default function Heroes() {
           <img
             src="/hero1.png"
             alt="hero 4"
-            className="w-44 md:w-64 h-44 md:h-64"
+            className="w-44 sm:w-64 h-44 sm:h-64"
           />
           <img
             src="/hero4.png"
             alt="hero 5"
-            className="w-36 md:w-40 h-36 md:h-40"
+            className="w-28 md:w-40 h-28 md:h-40"
           />
         </div>
       </div>

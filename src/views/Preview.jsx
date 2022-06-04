@@ -14,6 +14,13 @@ export default function Preview() {
       <div className="flex items-center justify-center">
         <img src="/preview.png" alt="preview" />
       </div>
+      <div>
+        <p className="p-7 text-center text-gray-100 tracking-wide text-xs sm:text-lg  -mt-10">
+          Like the demo above, you can use Social Feeds with ease, just need to
+          duplicate the template design you want, design the content, and
+          export!
+        </p>
+      </div>
     </section>
   );
 }

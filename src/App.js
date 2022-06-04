@@ -5,6 +5,9 @@ import ForEveryone from "./views/ForEveryone";
 import Features from "./views/Features";
 import SecondFeatures from "./views/SecondFeatures";
 import Preview from "./views/Preview";
+import SecondPreview from "./views/SecondPreview";
+import FigmaSocial from "./views/FigmaSocial";
+import Download from "./views/Download"
 
 function App() {
   useEffect(() => {
@@ -13,13 +16,16 @@ function App() {
   return (
     <>
     <Navbar />
-    <main className="bg-gradient-to-b from-sky-100 to-sky-50/30 pb-32 px-5 md:px-24 min-h-screen pt-28">
+    <main className="bg-gradient-to-b from-sky-100 to-sky-50/30 pb-32 px-5 sm:px-24 min-h-screen pt-28">
       <Heroes />
       <ForEveryone />
       <Features />
       <SecondFeatures />
     </main>
     <Preview />
+    <SecondPreview />
+    <FigmaSocial />
+    <Download />
     </>
   );
 }

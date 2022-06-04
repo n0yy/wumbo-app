@@ -12,7 +12,7 @@ export default function Features() {
           </span>{" "}
           Templates Ready to Use
         </h3>
-        <p className="text-gray-500 tracking-wide">
+        <p className="text-gray-500 tracking-wide text-justify">
           time you post. There are 80+ designs with 10+ different layouts. Each
           layout has several designs with the same theme, just need to focus on
           the content!

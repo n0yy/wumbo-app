@@ -2,12 +2,12 @@ export default function SecondFeatures() {
   return (
     <section>
       <div className="block md:flex items-center flex-row-reverse justify-center mt-24 md:mt-40">
-        <div className="space-y-2 w-auto md:w-1/2 tracking-wider">
+        <div className="space-y-5 w-auto md:w-1/2 tracking-wider">
           <h3 className="text-3xl font-semibold font-dm text-gray-800">
             Design Templates Are Highly Customizable,{" "}
             <span className="underline">it's easy to use!</span>
           </h3>
-          <p className="leading-snug text-gray-600">
+          <p className="leading-snug text-gray-600 mt-1 text-justify">
             All design templates are ready to use, meaning you only need to
             focus on content or if necessary, adjust some properties such as
             color, font, font size and other properties to match your brand.
