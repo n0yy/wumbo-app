@@ -1,6 +1,6 @@
 export default function FigmaSocial() {
   return (
-    <section className="px-7 sm:px-24 relative block sm:flex flex-row-reverse justify-between items-center">
+    <section className="px-7 sm:px-24 relative block lg:flex flex-row-reverse justify-between items-center">
       <div className="space-y-5">
         <h3 className="text-3xl tracking-wide">
           Figma Social Feeds is Free For{" "}

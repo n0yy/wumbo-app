@@ -2,9 +2,9 @@ import Button from "../components/Button";
 
 export default function Heroes() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between font-dm">
-      <div className="w-full md:w-2/5 space-y-5 z-10 md:z-0 mb-24">
-        <h1 className="text-4xl md:text-5xl text-sky-900 font-light leading-tight">
+    <section className="flex flex-col lg:flex-row items-center justify-between font-dm">
+      <div className="w-full lg:w-2/5 space-y-5 z-10 lg:z-0 mb-24">
+        <h1 className="text-4xl lg:text-5xl text-sky-900 font-light leading-tight">
           Beautiful Design For{" "}
           <span className="font-extrabold underline">Social Media</span> Content
         </h1>
@@ -30,7 +30,7 @@ export default function Heroes() {
       <div className="flex flex-col gap-5 z-10 relative">
         {/* background */}
 
-        <span className="hidden md:block absolute -z-10 -top-20 -right-24">
+        <span className="hidden lg:block absolute -z-10 -top-20 -right-24">
           <img
             src="/bg-hero.png"
             alt="background"
@@ -45,7 +45,7 @@ export default function Heroes() {
             className="w-20 h-20 sm:w-36 sm:h-36"
           />
           <img src="/hero5.png" alt="hero 2" />
-          <img src="/hero3.png" alt="hero 3" className="hidden md:block" />
+          <img src="/hero3.png" alt="hero 3" className="hidden lg:block" />
         </div>
         <div className="flex items-start gap-3">
           <img
@@ -56,7 +56,7 @@ export default function Heroes() {
           <img
             src="/hero4.png"
             alt="hero 5"
-            className="w-28 md:w-40 h-28 md:h-40"
+            className="w-28 lg:w-40 h-28 lg:h-40"
           />
         </div>
       </div>

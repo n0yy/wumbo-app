@@ -1,7 +1,7 @@
 export default function SecondPreview() {
   return (
-    <section className="my-24 px-7 sm:px-24 block sm:flex items-center justify-between relative overflow-hidden">
-      <div className="space-y-5 w-full sm:w-7/12">
+    <section className="my-24 px-7 sm:px-24 block lg:flex items-center justify-between relative overflow-hidden">
+      <div className="space-y-5 w-full lg:w-7/12 mx-auto">
         <h3 className="text-3xl font-semibold tracking-wide">
           Optimized For Posts on{" "}
           <span className="underline">All Social Media</span>: Facebook,
@@ -75,7 +75,7 @@ export default function SecondPreview() {
       </div>
 
       <div className="mt-10">
-        <div className="shadow-2xl mb-20">
+        <div className="shadow-2xl mb-20 max-w-max mx-auto lg:mx-0">
           <img src="./forIg.png" alt="For Instagram" className="sm:w-[300px]" />
         </div>
         {/* bg */}

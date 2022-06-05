@@ -8,6 +8,7 @@ import Preview from "./views/Preview";
 import SecondPreview from "./views/SecondPreview";
 import FigmaSocial from "./views/FigmaSocial";
 import Download from "./views/Download"
+import Footer from "./views/Footer";
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
     <SecondPreview />
     <FigmaSocial />
     <Download />
+    <Footer />
     </>
   );
 }
