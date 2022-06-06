@@ -81,7 +81,7 @@ export default function Navbar() {
         {/* OFCANVAS FOR MOBILE */}
         <div
           className={`lg:hidden absolute top-0 transition-all ${
-            menuIsOpen ? "right-0 " : "-left-96 sm:-left-full"
+            menuIsOpen ? "right-0 " : "-left-full"
           } min-h-screen w-full bg-sky-600`}
         >
           <ul className="p-10 space-y-7 font-extralight text-white">
