@@ -55,7 +55,7 @@ export default function Footer() {
       </div>
       <hr className="text-gray-400 my-2 lg:my-5" />
       <h6 className="text-xs text-center text-gray-400 py-1 lg:py-3">
-        COPYRIGHT © 2022 - DESIGN NAUVAL | Builded by Sync0nate
+        COPYRIGHT © 2022 - DESIGN NAUVAL | Builded by Syncr0nate
       </h6>
     </footer>
   );

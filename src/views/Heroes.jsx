@@ -3,7 +3,7 @@ import Button from "../components/Button";
 export default function Heroes() {
   return (
     <section className="flex flex-col lg:flex-row items-center justify-between font-dm">
-      <div className="w-full lg:w-2/5 space-y-5 z-10 lg:z-0 mb-24">
+      <div className="w-full lg:w-5/12 mr-0 lg:mr-20  space-y-5 z-10 lg:z-0 mb-24">
         <h1 className="text-4xl lg:text-5xl text-sky-900 font-light leading-tight">
           Beautiful Design For{" "}
           <span className="font-extrabold underline">Social Media</span> Content
