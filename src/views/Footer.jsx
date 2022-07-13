@@ -35,7 +35,10 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="mt-36 px-7 lg:px-24 bg-sky-900 text-white pt-10 pb-2">
+    <footer
+      className="mt-36 px-7 lg:px-24 bg-sky-900 text-white pt-10 pb-2"
+      id="license"
+    >
       <div className="block lg:flex justify-between">
         <div className="w-full lg:w-4/12">
           <img src="./logo.png" alt="Logo Wumbo" className="mb-1" />

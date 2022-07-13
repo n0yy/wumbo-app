@@ -1,6 +1,6 @@
 export default function Preview() {
   return (
-    <section id="preview" className="md:p-10 bg-sky-900 md:mt-20">
+    <section id="previews" className="md:p-10 bg-sky-900 md:mt-20">
       <header className="p-7 flex flex-col items-center justify-center space-y-3 md:space-y-5">
         <button className="px-6 py-1 md:py-1.5 rounded-full bg-sky-800 text-sky-500">
           Preview

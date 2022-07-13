@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="py-2 md:py-4 fixed inset-x-0 top-0 bg-white/25 backdrop-blur-md shadow-sm px-5 md:px-24 z-20 w-full">
+      <nav className="py-2 md:py-4 fixed top-0 bg-white/25 backdrop-blur-md shadow-sm px-5 md:px-24 z-20 w-full">
         <div className="flex items-center justify-between">
           <span className="flex items-center space-x-2 md:space-x-3 py-1 md:py-0">
             <img
@@ -44,7 +44,7 @@ export default function Navbar() {
             />
             <p className="font-bold text-sm md:text-lg mt-1.5">Wumbo</p>
           </span>
-          <ul className="hidden lg:flex item-center space-x-10 font-extralight text-gray-500">
+          <ul className="hidden lg:flex item-center space-x-10 font-extralight text-gray-400">
             {menuItems.map((item) => (
               <MenuItem {...item} />
             ))}
@@ -86,7 +86,13 @@ export default function Navbar() {
         >
           <ul className="p-10 space-y-7 font-extralight text-white">
             {menuItems.map((item) => (
-              <MenuItem {...item} />
+              <span
+                className="block cursor-pointer"
+                key={item.id}
+                onClick={() => setMenuIsOpen(false)}
+              >
+                <MenuItem {...item} />
+              </span>
             ))}
           </ul>
           <button
